@@ -83,7 +83,7 @@ e.g. user/projects/view_plugin
 - Step 24 - Open file builder.properties
 e.g. user/projects/view_plugin/webapp/view_plugin/i18n/builder.properties
 
-- Step 25 - Change line 6 from title=view_plugin to my_view_plugin
+- Step 25 - Change line 6 from title=view_plugin to title=my_view_plugin
 
 - Step 26 - Right click on file MainView.view.xml
 e.g. user/projects/view_plugin/webapp/view_plugin/view/MainView.view.xml
@@ -92,7 +92,7 @@ e.g. user/projects/view_plugin/webapp/view_plugin/view/MainView.view.xml
 
 - Step 28 - Delete tollbar
 
-- Step 29 - Edit text from template to "Hello World"" and close
+- Step 29 - Edit text from template to "Hello World" and close
 
 - Step 30 - Right click on file mta.yaml
 e.g. user/projects/view_plugin/mta.yaml
@@ -120,7 +120,7 @@ e.g. Digital Manufacturing Cloud Internal tenants_DMC-AZ-CONS-training
 e.g. DMC_DEV
 
 - Step 39 - Grab generated link
-e.g. Application "mypodplugin" started and available at "digital-manufacturing-cloud-internal-tenants-dmc-az-***********.******.eu20.hana.ondemand.com"
+e.g. Application "view_plugin" started and available at "digital-manufacturing-cloud-internal-tenants-dmc-az-***********.******.eu20.hana.ondemand.com"
 
 "digital-manufacturing-cloud-internal-tenants-dmc-az-con2a1c0f10.cfapps.eu20.hana.ondemand.com"
 
@@ -147,3 +147,24 @@ e.g. My View Plugin
 - Step 48 - Select Type POD plugin
 
 - Step 49 - Enter generated link from deployment into URL adding https:// or http://
+
+- Step 49 - Enter generated link from deployment into URL adding https:// or http://
+
+- Step 50 - Enter name space previously set at project generator with forward slashes instead of dots
+e.g. sap.custom.plugin.view_plugin to sap/custom/plugin/view_plugin
+
+- Step 51 - Enter PATH as the project's folder
+e.g. /view_plugin
+
+- Step 52 - Check the Enable Status box and click Create
+
+- Step 53 - Custom plugin is enabled and vaialable in the DMC and can be used in a POD (Production Operation Dashboard)
+
+- Step 54 - Select DEFAULT_ORDER_POD
+
+- Step 55 - Select Details
+
+- Step 56 - Search for our newly created plugin
+e.g. view_plugin
+
+Newly Registered plugin not showin in POD designner
