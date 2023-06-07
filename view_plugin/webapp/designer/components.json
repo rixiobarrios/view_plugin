@@ -1,0 +1,15 @@
+{
+	"components": [
+		{
+			"id": "view_plugin",
+			"type": "VIEW_PLUGIN",
+			"allowMultipleInstances": false,
+			"name": "sap.custom.plugin.view_plugin.view_plugin.view_plugin",
+			"propertyEditor": "sap.custom.plugin.view_plugin.view_plugin.view_plugin.builder.PropertyEditor",
+			"i18n": "sap.custom.plugin.view_plugin.view_plugin.view_plugin.i18n.i18n",
+            "productionProcessEnabled": true,
+           "productionProcessTitle": "view_plugin",
+			"supportedPodTypes": ["WORK_CENTER","OPERATION","ORDER","OTHER","MONITOR"]
+		}   
+	]
+}
